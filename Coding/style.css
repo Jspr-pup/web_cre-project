@@ -1,21 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url("images/bg.png");
     background-repeat: no-repeat;
     background-size: cover
 }
+
+/*NAVIGATION BAR CSS*/
+#nav {
+    margin-left: 30%;
+    position:absolute; 
+    margin-top: -80px ;
+}
+
 #logo {
     margin-left: 2%;
     padding-right: 50px;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 #header {
     background-color: #105c47;
     padding-top: 10px;
     padding-bottom: 5px;
 }
+
 input {
     padding: 8px;
     border-color: rgb(0, 0, 0);
@@ -23,14 +34,17 @@ input {
     margin-top: -3px;
     margin-left: 17px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 ul li {
     float: left;
 }
+
 ul li a {
     background-color: #105c47;
     margin: 1px; 
@@ -41,15 +55,15 @@ ul li a {
     text-decoration: none;
     color: rgb(209, 255, 205)
 }
+
 ul li a:hover{
     color: #105c47;
     background-color: white;
 }
-#nav {
-    margin-left: 30%;
-    position:absolute; 
-    margin-top: -80px ;
-}
+
+
+
+/*FOOTER CSS*/
 footer {
     background-color: black;
     color: white;
